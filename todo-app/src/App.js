@@ -1,11 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import ToDoLIst from "./components/ToDo.js"
+import Navbar from './components/Navbar';
+import TodoList from './components/TodoList';
+import TodoForm from "./components/TodoForm";
+import ContextProvider from './context/Context';
 
 function App() {
   return (
     <div className="App">
-      <ToDoLIst />
+      <ContextProvider>
+        <Navbar />
+        <TodoList />
+        <TodoForm />
+      </ContextProvider>
     </div>
   );
 }
