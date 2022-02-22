@@ -1,13 +1,36 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 // Switch => Routes
-import UserContextProvider from "./context/UserContext";
-import { Navbar } from "./styled";
-import { Home, About, Users, UserDetails } from "./views";
+// import UserContextProvider from "./context/UserContext";
+// import { Navbar } from "./styled";
+// import { Home, About, Users, UserDetails } from "./views";
+//
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Login from "./pages/Login";
+import PrivetRoute from "./components/PrivetRoute"
+
 
 function App() {
   return (
     <div className="App">
-      <UserContextProvider>
+
+      <Router>
+        <Link to="/login">Login</Link>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/home" element={<Home />} />
+          <Route
+            path="/about"
+            element={
+              <PrivetRoute>
+                <About />
+              </PrivetRoute>
+            }
+          />
+        </Routes>
+      </Router>
+
+      {/* <UserContextProvider>
         <Router>
           <div>
             <Navbar>
@@ -33,7 +56,8 @@ function App() {
           </div>
         </Router>
       </UserContextProvider>
-      {/* <button>Button</button> */}
+      <button>Button</button> */}
+
     </div>
   );
 }

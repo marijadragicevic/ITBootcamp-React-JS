@@ -12,8 +12,8 @@ const MovieDetails = () => {
 
     const navigate = useNavigate();
 
-    useEffect(async () => {
-        await API.get(`?i=${movieId}&${apiKey}`)
+    useEffect(() => {
+        API.get(`?i=${movieId}&${apiKey}`)
             .then(res => {
                 setMovie(res.data);
             });
