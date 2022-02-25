@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import TodoList from './components/TodoList';
 import TodoForm from "./components/TodoForm";
 import ContextProvider from './context/Context';
+// import CheckTodo from './components/CheckTodo';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <TodoList />
         <TodoForm />
+        {/* <CheckTodo/> */}
       </ContextProvider>
     </div>
   );

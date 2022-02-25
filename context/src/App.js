@@ -1,4 +1,3 @@
-import './App.css';
 import ThemeToggle from './components/ThemeToggle';
 import SongList from './components/SongList';
 import ThemeContextProvider from './context/TeamContext';

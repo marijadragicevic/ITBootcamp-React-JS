@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 export default class ChildComponent1 extends Component {
     state = {
         favoriteColor: "red"

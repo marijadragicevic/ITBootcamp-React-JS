@@ -45,8 +45,8 @@ const MovieDetails = () => {
 
                     </ul>
                 </div>
+                <button type="button" className="btnBack" onClick={handleBackButton}> Back</button>
             </section>
-            <button type="button" className="btnBack" onClick={handleBackButton}> Back</button>
         </div>
     );
 }

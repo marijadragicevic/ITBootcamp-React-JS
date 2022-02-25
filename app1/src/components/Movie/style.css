@@ -1,105 +1,105 @@
-.movies{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(34, 34, 34);
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
 }
-.movieContainer{
-    flex: 0 0 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    padding: 15px 20px;
-    background-color: rgba(255, 255, 255, 0.062);
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.062) ;
+.movieContainer {
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 15px 20px;
+  background-color: rgba(255, 255, 255, 0.062);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.062);
 }
-.movieContainer:hover{
-    flex: 0 0 27%;
-    transition: 0.6s ease;
-    border: 3px solid rgb(224, 224, 224);
+.movieContainer:hover {
+  flex: 0 0 27%;
+  transition: 0.6s ease;
+  border: 3px solid rgb(224, 224, 224);
 }
-.movieContainer img{
-    height: 70vh;
+.movieContainer img {
+  height: 70vh;
 }
-.movieContainer h2{
-    color:rgb(255, 255, 255);
-    font-weight: 300;
-    font-size: 1.8rem;
-    text-align: center;
-    padding-bottom: 15px;
+.movieContainer h2 {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 /*MovieDetails page*/
 
-.container{
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    color: rgb(224, 222, 222);
-    padding: 15px 40px;
-    background-attachment: fixed;
+.container {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: rgb(224, 222, 222);
+  padding: 15px 40px;
+  background-attachment: fixed;
 }
-.container h2{
-    font-size: 3.5rem;
-    font-weight: 300;
-    padding-bottom: 40px;
-    text-align: center;
+.container h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding-bottom: 40px;
+  text-align: center;
 }
-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
-section img{
-    height: 75vh;
-    box-shadow: 0 0 20px black;
+section img {
+  height: 75vh;
+  box-shadow: 0 0 20px black;
 }
-section .movieDetailsContent{
-    flex: 0 0 45%;
-    padding: 20px;
-    background-color: rgba(82, 82, 82, 0.356);
-    border-radius: 5px;
+section .movieDetailsContent {
+  flex: 0 0 45%;
+  padding: 20px;
+  background-color: rgba(82, 82, 82, 0.356);
+  border-radius: 5px;
 }
 section .movieDetailsContent h4 {
-    font-size: 2.3rem;
-    font-style: italic;
+  font-size: 2.3rem;
+  font-style: italic;
 }
-section .movieDetailsContent p{
-    font-size: 1.8rem;
-    font-weight: 300;
+section .movieDetailsContent p {
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 section .movieDetailsContent ul {
-    list-style-type: none;
-    font-size: 1.4rem;
-    padding-top: 40px;
+  list-style-type: none;
+  font-size: 1.4rem;
+  padding-top: 40px;
 }
 section .movieDetailsContent ul li {
-    font-weight: 300;
+  font-weight: 300;
 }
-section .movieDetailsContent ul li span{
-    padding-right: 30px;
-    font-weight: 400;
-    font-style: italic;
+section .movieDetailsContent ul li span {
+  padding-right: 30px;
+  font-weight: 400;
+  font-style: italic;
 }
 
-.btnBack{
-    border: none;
-    color: rgb(255, 238, 0);
-    background-color: rgb(34, 34, 34);
-    font-size: 1.5rem;
-    padding: 5px 20px;
-    margin-top:  20px;
-    border-radius: 5px;
-    float: right;
+.btnBack {
+  border: none;
+  color: rgb(255, 238, 0);
+  background-color: rgb(34, 34, 34);
+  font-size: 1.5rem;
+  padding: 5px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  float: right;
 }
-.btnBack:hover{
-    background-color: rgb(5, 5, 5);
-    color: rgb(255, 238, 0);
+.btnBack:hover {
+  background-color: rgb(5, 5, 5);
+  color: rgb(255, 238, 0);
 }

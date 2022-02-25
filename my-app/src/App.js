@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { Component, PureComponent } from 'react';
 import Counter from "./components/Counter.js";
